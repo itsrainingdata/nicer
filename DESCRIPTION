@@ -1,0 +1,19 @@
+Package: nicer
+Title: No title
+Version: 0.0.0.1
+Date: 2018-01-29
+Authors@R: person("Bryon", "Aragam", email = "sparsebn@gmail.com", role = c("aut", "cre"))
+Maintainer: Bryon Aragam <sparsebn@gmail.com>
+Description: No description
+Depends:
+    R (>= 3.2.3)
+Imports:
+    sparsebnUtils (>= 0.0.2),
+    Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests:
+    testthat,
+    graph
+License: GPL (>= 2)
+RoxygenNote: 6.0.1
+SystemRequirements: C++11
